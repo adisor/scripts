@@ -88,4 +88,7 @@ if [ $space -eq 90 ]; then
 ##########################################################################CHECK MEMORY ON THE SERVER##########################################################################################################
 
 free -m | awk 'NR==2{printf "Memory Usage: %s/%sMB (%.2f%)\n", $3,$2,$3*100/$2 }' | while read memory;do
-
+echo -e "\n"
+echo -e $CYAN "$memory"
+echo -e "\n"
+done
