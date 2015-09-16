@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def main ():
 
 	x = (1, 2, 3)
