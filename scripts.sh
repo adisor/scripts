@@ -72,7 +72,7 @@ done
 
 ##########################################################################CHECK DISK SPACE ON THE SERVER######################################################################################################"
 
-df -H | awk '{print $5}' | tail -n 1 | cut -c1,2 |  while read space;
+df -H | awk '{print $5}' | tail -n 1 | cut -c1 |  while read space;
 
 do
 
