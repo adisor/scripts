@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#http://www.ibm.com/developerworks/aix/library/au-python/
 import stat, sys, os, string, commands
 
 #Getting search pattern from user and assigning it to a list
