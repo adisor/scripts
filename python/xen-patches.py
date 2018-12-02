@@ -42,6 +42,7 @@ def main(argv):
         if (select >= 0 and select < len(patches)):
             break
 
+
     # download patch
     os.system("wget " + patches[select]['url'])
 
